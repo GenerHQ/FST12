@@ -30,9 +30,10 @@ D - Deleted
 
 # Check commit history 
 git log 
-
+-----------------------
 # Check commit history (summarized)
 git log --oneline
+-----------------------
 
 # Confirm connection to remote repository 
 git remote -v
