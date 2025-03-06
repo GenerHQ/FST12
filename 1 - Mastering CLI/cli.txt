@@ -1,0 +1,23 @@
+GUI - Graphical User Interface - uses Icons/Buttons/Menus
+CLI - Command-Line Interface - uses text-based commands
+pwd - present working directory
+ls - list
+
+
+# make directory
+mkdir "directory name" / without quotation for single word name folder
+
+# remove directory
+rmdir "directory name" / without quotation for single word name folder
+
+# change directory
+cd "directory name"
+
+# make a file
+touch "file name"
+
+# remove a file
+rm "file name"
+
+#change directory, go back one directory
+cd ..  

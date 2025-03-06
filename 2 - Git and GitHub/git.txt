@@ -1,0 +1,66 @@
+# Git Version
+git --version
+
+# Initialize a repository
+git init 
+
+# Configuring git username and email
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name 
+git config user.email
+
+# Check the status
+git status 
+
+# Adding file to staging area
+git add "file/folder name"
+
+# Add files to staging area
+git add .
+
+# Commit files
+git commit -m "description of your commit"
+
+# Legends for Git
+U - Untracked
+A - Added
+M - Modified
+D - Deleted
+
+# Check commit history 
+git log 
+
+# Check commit history (summarized)
+git log --oneline
+
+# Confirm connection to remote repository 
+git remote -v
+
+# Add a remote to the local repository 
+git remote add origin "repository-url"
+
+# Set the branch to main
+git branch -M main 
+
+# Push commits to remote repository (initial push)
+git push -u origin main
+
+# Push commits to remote repostory 
+git push
+
+# List all branches
+git branch -a 
+
+# Create a branch 
+git branch "branch name"
+
+# Switch to another branch 
+git switch "branch name" # May not work for older versions
+git checkout "branch name"
+
+# Merge branches
+git merge "branch name"
+
+# Delete a branch 
+git branch -d "branch name"
