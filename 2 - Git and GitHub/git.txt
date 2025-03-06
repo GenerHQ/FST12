@@ -50,16 +50,6 @@ git push -u origin main
 # Push commits to remote repostory 
 git push
 
-# List all branches
-git branch -a 
-
-# Create a branch 
-git branch "branch name"
-
-# Switch to another branch 
-git switch "branch name" # May not work for older versions
-git checkout "branch name"
-
 # Merge branches
 git merge "branch name"
 
